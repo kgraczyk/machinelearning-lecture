@@ -1,7 +1,7 @@
 # Machine Learning Lecture
 
 
-## Lista 1
+## List 1
 
 * **Problem 0.1**
   - Generate the tensor t of dimension $100$ filled by random numbers from the range [-1,1].
