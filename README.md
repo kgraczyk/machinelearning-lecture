@@ -51,3 +51,29 @@ Adapt training code and consider several values of the learning rate and various
 In one figure plot true vs. predictions and histogram of r_i's
 
 * __Problem 1.5 (10 pt.)__ Consider Boston housing data. Choose one of the linear models in scikit-learn and make analysis. Compare the resutls with the linear model discussed during the lecture.
+
+
+## List 2
+
+*__Problem 2.1 (20 pt.)__
+ Consider wine data [here](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_wine.html#sklearn.datasets.load_wine)
+ - split data into train and test datasets, use scikit-learn split method
+ - analise data (plot relations between features 2D triangle plot)
+ - plot3D of the samples, distingwish beteen three classes, consider various combinations of features
+ - use PCA and then plot3D once again.
+ - use K-means algorithm for clustering the data.
+ - Prepare the presentation about data, their properties and result of analysis
+
+ *__Problem 2.2 (20 pt.)__
+ Consider diabetes data [here](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_diabetes.html#sklearn.datasets.load_diabetes)
+ - split data into train and test datasets, use scikit-learn split method
+ - analise data (plot relations between features 2D triangle plot)
+ - perform linear regression analysis
+ - Prepare the presentation about data, their properties and result of analysis
+
+*__Problem 2.3 (20 pt.)__
+Make the dame analysis as in Problem 2.1 but for digits data [here](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_digits.html#sklearn.datasets.load_digits)
+ - make PCA, and then linea regression
+
+*__Problem 2.4 (20 pt.)__
+Make the dame analysis as in Problem 2.1 but for breast cancer (here)[https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_breast_cancer.html#sklearn.datasets.load_breast_cancer)
