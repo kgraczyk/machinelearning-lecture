@@ -76,4 +76,4 @@ Make the dame analysis as in Problem 2.1 but for digits data [here](https://scik
    - make PCA, and then linear regression
 
 * __Problem 2.4 (20 pt.)__
-Make the dame analysis as in Problem 2.1 but for breast cancer (here)[https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_breast_cancer.html#sklearn.datasets.load_breast_cancer)
+Make the dame analysis as in Problem 2.1 but for breast cancer [here](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_breast_cancer.html#sklearn.datasets.load_breast_cancer)
