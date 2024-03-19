@@ -79,3 +79,19 @@ Make the dame analysis as in Problem 2.1 but for digits data [here](https://scik
 
 * __Problem 2.4 (20 pt.)__
 Make the dame analysis as in Problem 2.1 but for breast cancer [here](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_breast_cancer.html#sklearn.datasets.load_breast_cancer)
+
+
+## List 3
+
+* __Problem 3.1 (30 pt.)__ 
+  Implement the K-Means algorithm but consider the distance defined by |x-y|^3.
+
+* __Problem 3.2 (35 pt.)__ 
+  - Implement the Perceptron algorithm.
+  - Using the sklearn package for generation data, obtain two classes of data that are linearly separable.
+  - Apply the Perceptron algorithm, and make a simulation showing the iteration steps.
+
+*__Problem 3.3 (15 pt)__
+  - Generate 20 pseudo-data assuming that the true function reads $x/2 + 0.5 x^2 sin(6 x^2) $, and add the Gaussian noise (consider three scales of the noise).
+  - Fit the polynomials of degrees 3, 10, and 20 using PolynomialFeatures from sklearn and numpy.polyfit 
+
