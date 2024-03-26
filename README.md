@@ -92,6 +92,27 @@ Make the dame analysis as in Problem 2.1 but for breast cancer [here](https://sc
   - Apply the Perceptron algorithm, and make a simulation showing the iteration steps.
 
 * __Problem 3.3 (15 pt)__
-  - Generate 20 pseudo-data assuming that the true function reads $x/2 + 0.5 x^2 sin(6 x^2) $, and add the Gaussian noise (consider three scales of the noise).
+  - Generate 20 pseudo-data points assuming that the true function reads $x/2 + 0.5 x^2 sin(6 x^2) $, and add the Gaussian noise (consider three scales of the noise).
   - Fit the polynomials of degrees 3, 10, and 20 using PolynomialFeatures from sklearn and numpy.polyfit 
 
+## List 4
+
+* __Problem 4.1 (20 pt.)__ 
+  Consider California housing data
+   - split data into train and test datasets using the scikit-learn split method
+   - perform the analysis assuming that the input features are related via polynomial, use polynomial features, play with the highest degree of polynomial  
+   - check the accuracy of the model predictions on training and test datasets
+   - prepare the presentation about data, their properties, and results of the analysis
+
+* __Problem 4.2 (15 pt)__
+  - Generate 100 pseudo-data points assuming that the true function reads $x/2 + 0.5 x^2 sin(6 x^2) $, and add the Gaussian noise (consider three scales of the noise).
+  - Fit the polynomials of degrees 3, 10, and 20 using PolynomialFeatures from sklearn but apply Bayesian Ridge
+  - Plot predictions with uncertainties
+  - How do uncertainties depend on the degree of the polynomial? 
+
+* __Problem 4.3 (25 pt)__
+  Repeat the analysis of 4.2 for $x^2/2 + 0.5 x^3 cos(6 x^2) $ for 20 data with x in [0, 3] and 20 data with x in [7,10] for the Gaussian noise with std 0.1, 1, and 10 respectively. 
+  Compare the predictions.
+  How does uncertainty depend on the noise?
+  What about generalization? Play with regularization parameters.
+  
