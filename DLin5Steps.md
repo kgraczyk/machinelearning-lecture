@@ -139,8 +139,8 @@ Tips: play with activation functions, initializations, regularizations, batch si
 * **Competition 5**
   Write the procedure that randomly takes 20 figures from an unlabelled set of pictures (see problem above). Print them together with a prediction of your network. Count the number of successful predictions.
 
-   * **1st place: 50**
-   * **2nd place: 40**
-   * **3nd place: 30**
-   * **4th place: 20**
+   * **1st place: 30**
+   * **2nd place: 25**
+   * **3nd place: 20**
+   * **4th place: 15**
    * **5th place: 10**
