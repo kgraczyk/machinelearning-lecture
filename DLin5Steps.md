@@ -1,5 +1,6 @@
 # Deep Learning in Five Steps
 
+ - 5 lectures and 5 labs
 
 ## Problems
 
@@ -158,7 +159,7 @@ Then the grade can be raised by the activity during the labs.
  
 For those who obtained more than 50 points, the grade is raised according to the rule below:
  
-- $>80$    3
-- $>70$    2,5
-- $>60$    2
-- $>50$    1,5
+- $>80$   : 3,0
+- $>70$   : 2,5
+- $>60$   : 2,0
+- $>50$   : 1,5
