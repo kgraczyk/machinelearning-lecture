@@ -148,17 +148,17 @@ Tips: play with activation functions, initializations, regularizations, batch si
 ## Grade
 
 The basis is the test grade. Here is the test grade ladder:
-10 do 11    dst
-12 do 13    dst+
-14 do 15    db
-16 do 17    db+
-18 do 19    bdb
+- 10 do 11    dst
+- 12 do 13    dst+
+- 14 do 15    db
+- 16 do 17    db+
+- 18 do 19    bdb
  
 Then the grade can be raised by the activity during the labs.
  
 For those who obtained more than 50 points, the grade is raised according to the rule below:
  
->80    3
->70    2,5
->60    2
->50    1,5
+- $>80$    3
+- $>70$    2,5
+- $>60$    2
+- $>50$    1,5
