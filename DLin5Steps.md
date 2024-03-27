@@ -64,7 +64,7 @@ Consider the true function from __Problem 6__, and generate the data. Then fit t
   * Train the model with MAE loss.
   * Compare the obtained model with the vanila one, namely compare the predictions for test dataset, and MAE values for test dataset.
  
-<font color = 'red'>**COMPETITION** </font>
+<font color = 'red'>**Competition 1** </font>
 
 <font color = 'red'> During classes, tray to learn the model so that you get the lowest in the group loss for test dataset.
   * The winner takes 25 points
@@ -83,7 +83,7 @@ Tips: play with activation functions, initializations, regularizations, batch si
   * Print six the most spectacular examples.
 
 
-* __Problem 13 (15) + Competetion 1__
+* __Problem 13 (15) + Competetion 2__
 
 * Consider fashion mnist data (https://keras.io/api/datasets/fashion_mnist).
 
@@ -97,7 +97,7 @@ Tips: play with activation functions, initializations, regularizations, batch si
 * __Probelm 14 (8)__
   * From the previous problem, make four figures (choose the worst four cases for network predictions). Each figure should contain the input picture with network prediction and plots of probabilities predicted for each possible class.  
 
-* **Competition 2**
+* **Competition 3**
 
   * Consider the Reuters dataset.
 
@@ -123,7 +123,7 @@ Tips: play with activation functions, initializations, regularizations, batch si
 
 ### Lectures 4-5
 
-* **Competition 3**
+* **Competition 4**
   Consider dogs vs cats data, as they are given at the lecture. Design the network which can have no more than 4 convolutional layers. Train the model. The model with the highest accuracy on test data set wins.
 
    * **1st place: 30**
@@ -136,7 +136,7 @@ Tips: play with activation functions, initializations, regularizations, batch si
 
 
 
-* **Competition 4**
+* **Competition 5**
   Write the procedure that randomly takes 20 figures from an unlabelled set of pictures (see problem above). Print them together with a prediction of your network. Count the number of successful predictions.
 
    * **1st place: 50**
@@ -144,4 +144,3 @@ Tips: play with activation functions, initializations, regularizations, batch si
    * **3nd place: 30**
    * **4th place: 20**
    * **5th place: 10**
-   * **6nd place:  5**
