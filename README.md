@@ -139,19 +139,17 @@ Make the dame analysis as in Problem 2.1 but for breast cancer [here](https://sc
 Consider:
 
 * a)
-  $$
+  $
   f(x) = x^2 \sin(x) + \sqrt{x}
-  $$
+  $
 
 * b)
-  $$
+  $
   f(x) =  \frac{ln(x)}{x} + (\sqrt{x}+1)^2
-  $$
+  $
 
 * c)
-  $$
-  f(x) = \sqrt{x} \exp(-x^2)
-  $$
+  $f(x) = \sqrt{x} \exp(-x^2)$
 
 *Note* Computations perform using Autograd PyTorch package.
 
