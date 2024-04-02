@@ -116,3 +116,35 @@ Make the dame analysis as in Problem 2.1 but for breast cancer [here](https://sc
   How does uncertainty depend on the noise?
   What about generalization? Play with regularization parameters.
   
+
+## List 5
+
+* __Problem 5.1 (20 pt.)__ 
+  Consider California housing data
+   - split data into train and test datasets using the scikit-learn split method
+   - perform the analysis using neural network inplemented in [scikit-learn](https://scikit-learn.org/stable/modules/generated/sklearn.neural_network.MLPRegressor.html#sklearn.neural_network.MLPRegressor)
+   - consider neural network with one hidden layer but with 5, 10 and 50 hidden units
+   - check the accuracy of the networks predictions on training and test datasets
+   - prepare the presentation about data, their properties, and results of the analysis
+
+* __Problem 5.2 (20 pt.)__
+
+  Repeat the problem 4.2 but use the neural network model from scikit-learn. Find the optimal number of neurons. How to choose the the optimal networks architecture?
+  Play with activation functions, optimisation algorithm, batch size, learning rate etc.
+
+* __Problem 5.3 (20 pt.)__
+
+  Having a function f(x), compute its first, second, and third-order derivatives. Plot them in one picture. Let $x$ ranges from $[0,10]$. Compare obtained results with the true values. 
+
+Consider:
+
+* a) $$ f(x) = x^2 \sin(x) + \sqrt{x}$$
+
+* b) $$ f(x) =  \frac{ln(x)}{x} + (\sqrt{x}+1)^2$$
+
+* c) $$ f(x) = \sqrt{x} \exp(-x^2) $$
+
+*Note* Computations perform using Autograd PyTorch package.
+
+
+  
