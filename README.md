@@ -135,8 +135,7 @@ Make the dame analysis as in Problem 2.1 but for breast cancer [here](https://sc
 * __Problem 5.3 (20 pt.)__
 
   Having a function f(x), compute its first, second, and third-order derivatives. Plot them in one picture. Let $x$ ranges from $[0,10]$. Compare obtained results with the true values.  Consider:
-  * a)
-    $ f(x) = x^2 \sin(x) + \sqrt{x} $
+  * a) $ f(x) = x^2 \sin(x) + \sqrt{x} $
 
   * b) $ f(x) =  \frac{ln(x)}{x} + (\sqrt{x}+1)^2$
 
