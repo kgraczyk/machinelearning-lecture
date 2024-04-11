@@ -154,6 +154,9 @@ Make the dame analysis as in Problem 2.1 but for breast cancer [here](https://sc
 * __Problem 6.3 (20 pt.)__
   Repeat the analysis of the Iris data with RGB (Gaussians) using the class `Network(nn.Module)` design to fit radial basis functions.
 
+* __Problem 6.4 (40 pt.)__
+  Write your own neural network class with four most popular activation functions, and user defined number of layers and units.
+
 
 
   
