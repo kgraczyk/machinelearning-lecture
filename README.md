@@ -135,13 +135,25 @@ Make the dame analysis as in Problem 2.1 but for breast cancer [here](https://sc
 * __Problem 5.3 (20 pt.)__
 
   Having a function f(x), compute its first, second, and third-order derivatives. Plot them in one picture. Let $x$ ranges from $[0,10]$. Compare obtained results with the true values.  Consider:
-  * a) $ f(x) = x^2 \sin(x) + \sqrt{x} $
+  * a) $f(x)=x^2\sin(x)+\sqrt{x}$
 
-  * b) $ f(x) =  \frac{ln(x)}{x} + (\sqrt{x}+1)^2$
+  * b) $f(x)=\frac{ln(x)}{x}+(\sqrt{x}+1)^2$
 
   * c) $f(x) = \sqrt{x} \exp(-x^2)$
 
 *Note* Computations perform using Autograd PyTorch package.
+
+## List 6
+
+* __Problem 6.1 (15 pt.)__
+  Consider the `class RBF4(torch.nn.Module)`  from lecture 7. Correct this code and obtain the class of Gaussian RBF with fixed widths. Then, fit the data from the lecture and discuss several user-defined widths.
+
+* __Problem 6.2 (20 pt.)__
+  Consider the class `Network(nn.Module)` design to fit radial basis functions. Then, consider the three RBFs (Gaussian) with a number of centers 10, 40, and 200, respectively. Then, consider the boundary data, make the analysis, and plot all boundary areas in one figure (play with transparency and color).
+
+* __Problem 6.3 (20 pt.)__
+  Repeat the analysis of the Iris data with RGB (Gaussians) using the class `Network(nn.Module)` design to fit radial basis functions.
+
 
 
   
