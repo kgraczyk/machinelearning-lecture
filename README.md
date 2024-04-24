@@ -160,7 +160,9 @@ Make the dame analysis as in Problem 2.1 but for breast cancer [here](https://sc
 ## List 7.
 
 * __Problem 7.1 (30 pt)__
-  Read the review arxiv:1609.04747. Then choose one of the algorithms from section 4 and implement. It should optimize of the function of the form `loss(*params)`.
+  Read the review [arxiv:1609.04747](https://arxiv.org/abs/1609.04747). Then choose one of the algorithms from section 4 and implement. It should optimize of the function of the form `loss(*params)`.
+* __Problem 7.2 (5 pt)__
+  Read the paper [arxiv:2005.00817](https://arxiv.org/abs/2005.00817), and reproduce the figures 3 and 4.
 
 
   
