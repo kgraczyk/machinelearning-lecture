@@ -157,6 +157,10 @@ Make the dame analysis as in Problem 2.1 but for breast cancer [here](https://sc
 * __Problem 6.4 (40 pt.)__
   Write your own neural network class with four most popular activation functions, and user defined number of layers and units.
 
+## List 7.
+
+* __Problem 7.1 (30 pt)__
+  Read the review arxiv:1609.04747. Then choose one of the algorithms from section 4 and implement. It should optimize of the function of the form `loss(*params)`.
 
 
   
