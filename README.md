@@ -157,12 +157,19 @@ Make the dame analysis as in Problem 2.1 but for breast cancer [here](https://sc
 * __Problem 6.4 (40 pt.)__
   Write your own neural network class with four most popular activation functions, and user defined number of layers and units.
 
-## List 7.
+## List 7
 
 * __Problem 7.1 (30 pt)__
   Read the review [arxiv:1609.04747](https://arxiv.org/abs/1609.04747). Then choose one of the algorithms from section 4 and implement. It should optimize of the function of the form `loss(*params)`.
 * __Problem 7.2 (5 pt)__
   Read the paper [arxiv:2005.00817](https://arxiv.org/abs/2005.00817), and reproduce the figures 3 and 4.
 
+## List 8
+* __Competition 1__
+  Consider the diabetes data, split them into train and test datasets exactly as in lecture 9. Optimize neural network model, using all tricks so far dicussed.
+  1. 25 points
+  2. 20 points
+  3. 15 points
+  4. 10 points
 
   
