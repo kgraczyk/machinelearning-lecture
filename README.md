@@ -13,6 +13,16 @@
   $$w_{ij} = \frac{1}{N}\sum_{\mu=1}^p \xi^\mu_i \xi^\mu_j.$$   
   We can slightly generalize the above rule and assume that\
   $$w_{ij} = \eta \sum_{\mu=1}^p \xi^\mu_i \xi^\mu_j, \quad \eta > 0$$\
-  Does the magnitude of  $\eta$ matter? Why was  $\eta=1/N$ chosen? Provide a short explanation with a calculation. 
+  Does the magnitude of  $\eta$ matter? Why was  $\eta=1/N$ chosen? Provide a short explanation with a calculation.
 
+* __Problem 3__ (1pt.)
+  Show that if a Hopfield network does not have symmetric connections, then the learning update process may not lead to convergent states. Solve the problem by constructing a two-node neural network.
 
+* __Problem 3__ (1pt.)
+  Show that if a Hopfield network trained synchronously may not lead to convergent states. Solve the problem by constructing a two-node neural network.
+
+* __Problem 4__ (1pt.)
+  Show that if the initial pattern \(S_i\) has at most half of its bits differing from the pattern \(\xi_j\), the Hebb's rule will still lead the state \(S_i\) to the pattern \(\xi_j\).
+
+* __Problem 5__ (1pt.)
+  Calculate the first and second moment for the binomial distribution and the variance.
