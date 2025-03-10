@@ -32,8 +32,6 @@
 
 ## List 2 (6 pt.)
 
-### Theoretical Tasks
-
 * __Problem 2.1__ (1 pt.)
   Compute the integral
   $$
@@ -74,8 +72,6 @@
   $$
   \frac{\partial G(\mathbf{w})}{\partial w_{k m}} =?
   $$
-
-### Practical Problems
 
 * __Problem 2.5__ (**2 pt.**)
  Consider the Hopfield network. Consider two new patterns and check the network's ability to memorize with synchronous and asynchronous updating.
