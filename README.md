@@ -11,9 +11,13 @@
 * __Problem 1.2__ (1pt.)
 
   According to Hebb's rule, the weights of the connections in a Hopfield network are updated according to the formula:\
-  $$w_{ij} = \frac{1}{N}\sum_{\mu=1}^p \xi^\mu_i \xi^\mu_j.$$   
+
+  $$ w_{ij} = \frac{1}{N}\sum_{\mu=1}^p \xi^\mu_i \xi^\mu_j.
+  $$   
   We can slightly generalize the above rule and assume that\
-  $$w_{ij} = \eta \sum_{\mu=1}^p \xi^\mu_i \xi^\mu_j, \quad \eta > 0$$\
+  $
+  $w_{ij} = \eta \sum_{\mu=1}^p \xi^\mu_i \xi^\mu_j, \quad \eta >0
+  $$\
   Does the magnitude of  $\eta$ matter? Why was  $\eta=1/N$ chosen? Provide a short explanation with a calculation.
 
 * __Problem 1.3__ (1pt.)
