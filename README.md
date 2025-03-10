@@ -55,9 +55,7 @@
 
 * __Problem 2.4__ (1 pt.)
   Given the function\
-  $$G(\mathbf{w}) = - \frac{1}{2} \sum_{i}^N \sum_{ \mu =1}^p  \left\{ 
-(1 + \xi_i^\mu) \ln\left[ \frac{1}{2}(1+S_i^\mu) \right]+(1 - \xi_i^\mu) \ln\left[ \frac{1}{2}(1-S_i^\mu) \right]
-\right\},$$
+  $$G(\mathbf{w}) = - \frac{1}{2} \sum_{i}^N \sum_{ \mu =1}^p  \left\{(1 + \xi_i^\mu) \ln\left[ \frac{1}{2}(1+S_i^\mu) \right]+(1 - \xi_i^\mu) \ln\left[ \frac{1}{2}(1-S_i^\mu) \right] \right\},$$
   
   where $\xi_i^\mu$ is the pattern to be memorized, and $S_i^\mu = \tanh(h_i^\mu/2)$ is the network response,
   $h_i^{\mu} = \sum_{j} w_{ij} \xi_i^\mu$.
