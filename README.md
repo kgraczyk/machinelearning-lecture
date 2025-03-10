@@ -11,8 +11,8 @@
 * __Problem 1.2__ (1pt.)
 
   According to Hebb's rule, the weights of the connections in a Hopfield network are updated according to the formula:\
-
-  $$ w_{ij} = \frac{1}{N}\sum_{\mu=1}^p \xi^\mu_i \xi^\mu_j.
+  $$
+  w_{ij} = \frac{1}{N}\sum_{\mu=1}^p \xi^\mu_i \xi^\mu_j.
   $$   
   We can slightly generalize the above rule and assume that\
   $
@@ -52,7 +52,6 @@
 
 * __Problem 2.3__ (1 pt.)
   Let us introduce the free energy:\
-
   $$
   \tilde{F}(w)= \sum_x Q(x;w)\ln\frac{Q(x,w)}{\exp(-\beta H(x,w))}
   $$
@@ -62,8 +61,7 @@
   Note that $P(x,w) = \exp(-\beta H(x,w))/Z$, $Q$ is the probability defined on the same domain as $P$
 
 * __Problem 2.4__ (1 pt.)
-  Given the function
-  
+  Given the function\
   $$
   G(\mathbf{w}) = - \frac{1}{2} \sum_{i}^N \sum_{ \mu =1}^p  \left\{ 
   (1 + \xi_i^\mu) \ln\left[ \frac{1}{2}(1+S_i^\mu) \right]
