@@ -74,13 +74,13 @@
   $$
 
 * __Problem 2.5__ (**2 pt.**)
- Consider the Hopfield network. Consider two new patterns and check the network's ability to memorize with synchronous and asynchronous updating.
+  Consider the Hopfield network. Consider two new patterns and check the network's ability to memorize with synchronous and asynchronous updating.
 
- Additional patterns (Python):
- ```python
- p5=np.array([[1,-1,1,-1,1],[-1,1,-1,1,-1],[1,-1,1,-1,1],[-1,1,-1,1,-1],[1,-1,1,-1,1]])
+  Additional patterns (Python):
+  ```python
+  p5=np.array([[1,-1,1,-1,1],[-1,1,-1,1,-1],[1,-1,1,-1,1],[-1,1,-1,1,-1],[1,-1,1,-1,1]])
 
- p6=np.array([[1,-1,-1,-1,1],[-1,1,1,1,1],[1,-1,-1,-1,1],[1,1,1,1,-1],[1,-1,-1,-1,1]])```
+  p6=np.array([[1,-1,-1,-1,1],[-1,1,1,1,1],[1,-1,-1,-1,1],[1,1,1,1,-1],[1,-1,-1,-1,1]])```
 
 
 
