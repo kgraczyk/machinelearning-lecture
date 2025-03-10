@@ -21,13 +21,13 @@
   Show that if a Hopfield network does not have symmetric connections, then the learning update process may not lead to convergent states. Solve the problem by constructing a two-node neural network.
 
 * __Problem 1.3__ (1pt.)
-  Show that if a Hopfield network trained synchronously may not lead to convergent states. Solve the problem by constructing a two-node neural network.
+  Show that if a Hopfield network is trained synchronously, it may not lead to convergent states. Solve the problem by constructing a two-node neural network.
 
 * __Problem 1.4__ (1pt.)
-  Show that if the initial pattern \(S_i\) has at most half of its bits differing from the pattern \(\xi_j\), the Hebb's rule will still lead the state \(S_i\) to the pattern \(\xi_j\).
+  Show that if the initial pattern $S_i$ has at most half of its bits differing from the pattern $\xi_j$, Hebb's rule will still lead the state $S_i$ to the pattern $xi_j$.
 
 * __Problem 1.5__ (1pt.)
-  Calculate the first and second moment for the binomial distribution and the variance.
+  Calculate the first and second moments for the binomial distribution and the variance.
 
 ---
 
@@ -55,13 +55,7 @@
 
 * __Problem 2.4__ (1 pt.)
   Given the function\
-  $$
-  G(\mathbf{w}) = - \frac{1}{2} \sum_{i}^N \sum_{ \mu =1}^p  \left\{ 
-  (1 + \xi_i^\mu) \ln\left[ \frac{1}{2}(1+S_i^\mu) \right]
-  +
-  (1 - \xi_i^\mu) \ln\left[ \frac{1}{2}(1-S_i^\mu) \right]
-  \right\},
-  $$
+  $$G(\mathbf{w}) = - \frac{1}{2} \sum_{i}^N \sum_{ \mu =1}^p  \left\{ (1 + \xi_i^\mu) \ln\left[ \frac{1}{2}(1+S_i^\mu) \right] +(1 - \xi_i^\mu) \ln\left[ \frac{1}{2}(1-S_i^\mu) \right] \right\},$$
   where $\xi_i^\mu$ is the pattern to be memorized, and $S_i^\mu = \tanh(h_i^\mu/2)$ is the network response,
   $h_i^{\mu} = \sum_{j} w_{ij} \xi_i^\mu$.
 
