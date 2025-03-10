@@ -10,7 +10,7 @@
 
 * __Problem 1.2__ (1pt.)
   According to Hebb's rule, the weights of the connections in a Hopfield network are updated according to the formula:\
-  $$w_{ij} = \frac{1}{N}\sum_{\mu=1}^p \xi^\mu_i \xi^\mu_j.$$\
+  $$w_{ij} = \frac{1}{N}\sum_{\mu=1}^p \xi^\mu_i \xi^\mu_j.$$
      
   We can slightly generalize the above rule and assume that\
   $$w_{ij} = \eta \sum_{\mu=1}^p \xi^\mu_i \xi^\mu_j, \quad \eta >0
@@ -35,9 +35,7 @@
 
 * __Problem 2.1__ (1 pt.)
   Compute the integral\
-  $$
-  \int_0^\infty d x \exp( - a x^2)
-  $$
+  $$\int_0^\infty d x \exp( - a x^2)$$
 
 * __Problem 2.2__ (1 pt.)
 
