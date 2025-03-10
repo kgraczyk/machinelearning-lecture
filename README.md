@@ -47,9 +47,7 @@
 
 * __Problem 2.3__ (1 pt.)
   Let us introduce the free energy:\
-  $$
-  \tilde{F}(w)= \sum_x Q(x;w)\ln\frac{Q(x,w)}{\exp(-\beta H(x,w))}
-  $$
+  $$\tilde{F}(w)= \sum_x Q(x;w)\ln\frac{Q(x,w)}{\exp(-\beta H(x,w))}$$
 
   Show that the energy $\tilde{F}$ upper bounds the free energy $F$.
 
