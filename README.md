@@ -4,4 +4,4 @@
 
 [List 2](list2.md)
 
-[List 2](list2.md)
+[List 3](list3.md)
