@@ -1,6 +1,6 @@
-## List 3 (6 pt.)
+## List 3 (16 pt.)
 
-### __Problem 3.0__ (16 pt.)
+### __Problem 3.0__
 
 Use the MNIST dataset. It can be downloaded using PyTorch, Kaggle, or any other service.
 
