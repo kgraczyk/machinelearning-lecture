@@ -25,4 +25,4 @@ Solve the same problem as in Problem 3.1 but for the Hopfield network with the l
 **Competition**
 1st (3 pt.) 2nd (2 pt.) 3rd (1 pt.)
 
-Use a Hopfield network to store the MNIST data. Choose the most convenient realization of the Hopfield version discussed during the lecture. Try to store as many different patterns as possible. The winner is the one who stores the highest number of patterns.
+Use a Hopfield network to store the MNIST data. Choose the most convenient realization of the Hopfield version discussed during the lecture. Try to store as many different patterns (different digits) as possible.  The winner is the one who stores the highest number of patterns!
