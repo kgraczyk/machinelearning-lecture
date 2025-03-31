@@ -26,6 +26,6 @@ Perform the same analysis as in **Problem 2.1**, but for the [digits dataset](ht
 Perform the same analysis as in **Problem 2.1**, but for the [breast cancer dataset](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_breast_cancer.html#sklearn.datasets.load_breast_cancer).
 
 ### **Problem 4.5 (5 pt.)**
-Consider the scattering [data](). The last column indicates the process type. Examine the dataset and determine if any types should be removed due to insufficient information. If necessary, perform data preprocessing. Then check the correlations.
+Consider the scattering [data](INC_antinu_300_10000_C12_train_small.csv). The last column indicates the process type. Examine the dataset and determine if any types should be removed due to insufficient information. If necessary, perform data preprocessing. Then check the correlations.
 
 Use PCA, K-means, or another clustering algorithm from scikit-learn to distinguish between the different process IDs. Finally, treat types 0 and 3 as the same and attempt to distinguish among the remaining types.  
